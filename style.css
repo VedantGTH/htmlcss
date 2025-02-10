@@ -1,0 +1,38 @@
+h1 {
+    color: rgb(138, 168, 168);
+}
+
+
+.menu, .code, .high {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0;
+}
+
+.menu, .code, .high {
+    background-color: rgb(130, 186, 186);
+}
+
+.menu li, .code li, .high li {
+    display: flex;
+    list-style-type: none;
+    margin: 20px;
+    font-weight: 400;
+    font-size: 1.2rem; 
+}
+
+
+#tag {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <h1>Feedback</h1>
+
+         <link rel="stylesheet" href="style.css">
+         <style>
+         a:hover {
+             font-size: 120%;
+             border: 8px solid rgb(70, 91, 93);
+             background-color: rgb(130, 186, 186);
+         }
+
+         
+         form {
+             border: 2px solid black;
+             padding: 20px;
+             width: 300px;
+             margin: 0 auto;
+             display: flex;
+             flex-direction: column;
+         }
+
+         label {
+             font-weight: bold;
+             margin-bottom: 5px;
+         }
+
+         input[type="text"], input[type="number"] {
+             margin-bottom: 10px;
+             padding: 5px;
+             font-size: 1rem;
+         }
+
+         input[type="radio"] {
+             margin-right: 5px;
+         }
+
+         input[type="submit"] {
+             background-color: rgb(130, 186, 186);
+             padding: 10px;
+             font-size: 1rem;
+             border: none;
+             cursor: pointer;
+         }
+
+         input[type="submit"]:hover {
+             background-color: rgb(70, 91, 93);
+             color: white;
+         }
+
+         </style>
+    </head>
+
+    <body> 
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="Work.html" >Our Work</a></li>
+       </ul>
+
+       <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <br>
+
+            <label for="mobile">Mobile No:</label>
+            <input type="number" id="mobile" placeholder="Enter your mobile number">
+            <br>
+
+            <label for="experience">How was your experience?</label> 
+            <input type="text" id="experience" placeholder="Share your experience">
+            <br>
+
+            <label for="more">What would you like to see more?</label>
+            <input type="text" id="more" placeholder="Your suggestions">
+            <br>
+
+            <label for="suggestions">Suggestions:</label>
+            <input type="text" id="suggestions" placeholder="Any suggestions for improvement">
+            <br>
+
+            <label>Overall experience:</label>
+            <input type="radio" name="experience" id="yes"><label for="yes">Yes</label>
+            <input type="radio" name="experience" id="no"><label for="no">No</label>
+            <br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
