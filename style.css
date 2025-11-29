@@ -1,38 +1,47 @@
-h1 {
+h1{
     color: rgb(138, 168, 168);
 }
 
-
-.menu, .code, .high {
-    display: flex;
+.menu{
+    display:flex;
     list-style-type: none;
     justify-content: center;
-    margin: 0;
-}
-
-.menu, .code, .high {
     background-color: rgb(130, 186, 186);
-}
+    
+    }
 
-.menu li, .code li, .high li {
+.menu li{
     display: flex;
     list-style-type: none;
     margin: 20px;
     font-weight: 400;
-    font-size: 1.2rem; 
+    font-size: larger;
+    
+}
+.code{
+    display:flex;
+    list-style-type:none;
+    justify-content: center;
+    background-color: rgb(131, 183, 183);
 }
 
-
-#tag {
+.code li{
+    margin: 20px;
+    font-weight:400 ;
+    font-size: larger;
+}
+.high{
+    display:flex;
+    list-style-type:none;
+    justify-content: center;
+    background-color: rgb(131, 183, 183);
+}
+.high li{
+    margin: 20px;
+    font-weight:400 ;
+    font-size: larger;
+}
+#tag{
     display: flex;
     justify-content: center;
-    align-items: center; 
 }
-
-
-
-
-
-
-
-
